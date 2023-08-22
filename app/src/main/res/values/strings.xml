@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BluechipAI_App</string>
+
+    <string name="hyperlink">Please visit<a href="http://bluechipai.asia/index.html#page-top/"> Bluechip Technologies Asia</a></string>
+
+    <string name="hyperlinkemail"><a href="hello@bluechipai.asia"> hello@bluechiptech.asia</a></string>
+</resources>

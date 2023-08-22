@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/welcome_image">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BLUECHIP AI ASIA"
+        android:layout_marginTop="130dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:background="@color/black1"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        We are providing state of the \nart AI soulutions for your requirement."
+        android:textStyle="italic"
+        android:textSize="18dp"
+        android:textColor="@color/white"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/get_start_btn"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Get Start"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="450dp"
+        app:cornerRadius="50dp"
+        />
+
+</LinearLayout>
+
